@@ -1,17 +1,36 @@
 .top{
     width: 100vw;
     background-color: #242F40;
-    height: 100px;
 }
 
 .background{
     background-color: #363636;
 }
 
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed&display=swap');
 .title{
-    color: #ffffff;
+    font-family: 'Roboto Condensed', sans-serif;
+    color: #FFFFFF;
 }
 
 .text{
-    color: #ffffff;
+    font-family: 'Roboto Condensed', sans-serif;
+    color: #FFFFFF;
+}
+
+.buttom:hover{
+    cursor: pointer;
+}
+
+.styleButtom{
+    font-family: 'Roboto Condensed', sans-serif;
+    background-color: #CCA43B;
+    border-radius: 10px;
+    width: max-content;
+    color: #363636;
+}
+
+.contain{
+    background-color: #CCA43B;
+    width: max-content;
 }
